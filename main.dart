@@ -107,7 +107,7 @@ class ProductCounter extends StatelessWidget {
     return Row(
       mainAxisSize: MainAxisSize.min,
       children: [
-        Text('Quantity: '),
+        Text('Count: 0'),
         TextButton(
           onPressed: onBuy,
           child: Text('Buy Now'),
