@@ -20,7 +20,7 @@ class MyApp extends StatelessWidget {
           body: ProductList(),
           floatingActionButton: FloatingActionButton(
           onPressed: () {
-            Navigator.pushReplacement(context,
+            Navigator.push(context,
                 MaterialPageRoute(builder: (context) => Cartpage()),
             );
     },
